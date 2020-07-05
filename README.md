@@ -4,7 +4,7 @@
 其中方块贴图资源来源于[Craft项目](https://github.com/fogleman/Craft)，噪声函数来源于[noise项目](https://github.com/caseman/noise)。
 # 使用方式
 ## 代码使用方式
-项目代码位于MineCraftDemo文件夹中，可以直接使用visual studio 2015加载。
+项目基于windows开发，项目代码位于MineCraftDemo文件夹中，可以直接使用visual studio 2015加载。
 ## 全局参数设置
 全局参数位于WorldInfo.h&WorldInfo.cpp中，会影响运行性能的参数如下：
 参数名|说明|备注
