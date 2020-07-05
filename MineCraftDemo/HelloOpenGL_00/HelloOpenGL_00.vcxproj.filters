@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GlobalLight.cpp" />
+    <ClCompile Include="Control.cpp" />
+    <ClCompile Include="SkyDome.cpp">
+      <Filter>SkyDome</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockData.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonModel.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonShader.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="CubemapTexture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="math_3d.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockGenerator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockTexture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="noise.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMapGenerator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="LandCoverGenerator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldInfo.cpp" />
+    <ClCompile Include="World.cpp" />
+    <ClCompile Include="CoordUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Section.cpp">
+      <Filter>Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SkyDome">
+      <UniqueIdentifier>{a2145084-2dee-45a0-bc80-b07554831be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{d8f52ac8-a27e-40d4-b3c5-51189802cc17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chunk">
+      <UniqueIdentifier>{871f98e2-1c56-4ac6-b9f0-7e6f0f10593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generator">
+      <UniqueIdentifier>{c4113f1c-57f2-4a26-9918-bcf71432f16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{6646920e-1f74-4b34-998f-4d1c4c7bc6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{9c3ab282-cbbf-4553-a4cf-6d54e2268e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{368e8e98-092a-411e-b57c-a3f381995fba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalLight.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="SkyDome.h">
+      <Filter>SkyDome</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="blockID.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockData.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonModel.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonShader.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="CubemapTexture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="math_3d.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockGenerator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockTexture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMapGenerator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="LandCoverGenerator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldInfo.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="CoordUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Section.h">
+      <Filter>Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

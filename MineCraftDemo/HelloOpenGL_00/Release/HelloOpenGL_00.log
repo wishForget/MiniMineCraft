@@ -1,0 +1,9 @@
+﻿  BlockTexture.cpp
+c:\users\yanglb2000\desktop\图形学大作业\minecraftdemo\helloopengl_00\BlockUtil.h(31): warning C4091: “static ”: 没有声明变量时忽略“BlockUtil”的左侧
+mesh.obj : error LNK2001: 无法解析的外部符号 _aiGetMaterialTextureCount
+mesh.obj : error LNK2001: 无法解析的外部符号 "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ)
+mesh.obj : error LNK2001: 无法解析的外部符号 "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z)
+mesh.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ)
+mesh.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ)
+mesh.obj : error LNK2001: 无法解析的外部符号 _aiGetMaterialTexture
+C:\Users\yanglb2000\Desktop\图形学大作业\MineCraftDemo\Release\MyOpenGL.exe : fatal error LNK1120: 6 个无法解析的外部命令
