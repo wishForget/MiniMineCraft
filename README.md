@@ -15,8 +15,12 @@ useFog|是否开启雾效|默认开启
 rayTestStepNum|射线检测步数|和rayTestStep共同决定射线检测的精度和距离
 rayTestStep|射线检测步长|同rayTestStepNum
 waterLevel|水平面|
+
 # 运行效果
 ![运行效果1](/img/运行示意图1.png)
 ![运行效果1](/img/运行示意图2.png)
 ![运行效果1](/img/运行示意图3.jpg)
 ![运行效果1](/img/运行示意图4.png)
+
+---
++ 感谢[CregskiN](https://github.com/CregskiN)提供的[xcode版本](https://github.com/CregskiN/MiniMineCraft-xcode)
